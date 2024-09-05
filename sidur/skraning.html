@@ -91,13 +91,24 @@
             <!-- Panta mat -->
             <section class="order-food-container">
                 <h3>Panta mat</h3>
-    
-                <label for="food">Viltu einhvern mat?</label>
-                <select id="food" name="food">
-                    <option value="pizza">Pizzusneið og gos</option>
-                    <option value="coffee">Kaffi og kaka</option>
-                    <option value="none">Engan mat</option>
-                </select>
+                
+                <div class="viltu-mat-container">
+                    <label for="food">Viltu einhvern mat?</label>
+                    <select id="food" name="food">
+                        <option value="pizza">Pizzusneið og gos</option>
+                        <option value="coffee">Kaffi og kaka</option>
+                        <option value="none">Engan mat</option>
+                    </select>
+                </div>
+                
+                <div class="allergies-container">
+                    <label for="allergies">Ofnæmi?</label>
+                        <input type="checkbox" id="allergies" name="allergies">
+                        <textarea id="comment" name="comment" rows="1" cols="60" placeholder="Hvernig ofnæmi? Eitthvað annað sem við eigum að vita?"></textarea>
+                </div>
+                
+
+
             </section>
 
             <!-- Upplýsingar um einstakling -->
